@@ -6,5 +6,8 @@ const ssylka = document.querySelector('.ssylka');
 ssylka.addEventListener("click",f1);
 
 function f1 () {
+   ssylka.click()
    console.log("ssylka");
 }
+
+f1();
